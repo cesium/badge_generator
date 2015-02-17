@@ -3,6 +3,11 @@ SEI15 Badges Generator
 
 Printable badges generator for 2015 CeSIUM's **Computer Engineering Week @ Minho University** event
 
+Sample output
+-------------
+
+See [this file](exemplo.pdf?raw=true).
+
 Default Usage
 -------------
 
