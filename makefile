@@ -4,8 +4,9 @@ clean:
 	rm -rf *.aux
 	rm -rf *.dvi
 	rm -rf *.log
+	rm -rf *.out
 
-%.tex: %.in
+%.tex: %.in texgenerator.bash modelo.tex
 	./texgenerator.bash $< > $@
 
 %.dvi: %.tex
