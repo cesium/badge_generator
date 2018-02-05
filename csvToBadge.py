@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import sys
 import csv
 import subprocess
@@ -9,7 +10,7 @@ def geraPDF(badge,numero):
 file = open(sys.argv[1],'r')
 reader = csv.reader(file)
 for row in reader:
-    geraPDF(row[0],row[1])
+    geraPDF(row[0],row[1]+1)
 
 
 
