@@ -1,7 +1,12 @@
-SEI15 Badges Generator
+SEI18 Badges Generator
 ======================
 
-Printable badges generator for 2015 CeSIUM's **Computer Engineering Week @ Minho University** event
+Printable badges generator for 2018 CeSIUM's **Computer Engineering Week @ Minho University** event
+
+Caveats
+------------
+
+For every SEI edition you need to update [modelo.tex](https://github.com/cesium/badge_generator/blob/master/modelo.tex)
 
 Sample output
 -------------
