@@ -12,6 +12,3 @@ file = open(sys.argv[1],'r')
 reader = csv.reader(file)
 for row in reader:
     geraPDF(row[0],row[1])
-
-
-
